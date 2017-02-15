@@ -6,52 +6,29 @@
     <title>Star Trek</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5"> <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5"> <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <div id="nav-div">
-      <ul id="my-nav" class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link page-scroll active" href="#original-series">Original Series</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#tng">The Next Generation</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#deep-space-nine">Deep Space Nine</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#voyager">Voyager</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#enterprise">Enterprise</a>
-        </li>
-      </ul>
-    </div>
-    <div class="container" id="big-div">
-      <div class="row" id="banner-row">
-        <div class="col-1"></div>
-        <div class="col" id="banner-div">
-          <img id="banner" src="https://upload.wikimedia.org/wikipedia/en/9/9f/Star_Trek_movie_logo_2009.jpg" alt="">
-        </div>
-        <div class="col-1"></div>
-      </div>
-      <p>One of my most early, most cherished, memories is walking into the living room and seeing my father laid back on the couch watching Star Trek. I couldn't have been more than six or seven, but I can still picture the vivid colors and hear the dramatic music in my minds eye. The firs character that comes to memory is that of a lanky dark-haired man with a blue shirt and weird ears. I couldn't have imagined then how impactful Star Trek would be on my life or how, as the years progressed, it would always be there waiting for me as a comforting reminder of home.</p>
-
-
-
-    <!-- Original Series -->
+    <div class="container-responsive" id="big-div">
+      <div id="out-of-nav">
 
     <section id="original-series" class="original-series">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                   <div class="card mb-3">
-                    <img class="card-img-top trek-poster" src="http://www.startrek.com/uploads/assets/articles/af77922b09d4c116628446ff882bc6c1b8c0a974.png" alt="Card image cap">
+                    <img class="card-img-top container" src="https://upload.wikimedia.org/wikipedia/en/9/9f/Star_Trek_movie_logo_2009.jpg" alt="Card image cap">
+
+                    <div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>One of my most early, most cherished, memories is walking into the living room and seeing my father laid back on the couch watching Star Trek. I couldn't have been more than six or seven, but I can still picture the vivid colors and hear the dramatic music in my minds eye. The firs character that comes to memory is that of a lanky dark-haired man with a blue shirt and weird ears. I couldn't have imagined then how impactful Star Trek would be on my life or how, as the years progressed, it would always be there waiting for me as a comforting reminder of home.</p>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+                    <img class="card-img-top trek-poster container" src="http://www.startrek.com/uploads/assets/articles/af77922b09d4c116628446ff882bc6c1b8c0a974.png" alt="Card image cap">
                     <div class="card-block">
                       <h4 class="card-title">Star Trek: The Original Series</h4>
                       <div class="progress">
@@ -904,6 +881,7 @@
                     </div>
                   </div>
                 </div>
+                </div>
             </div>
         </div>
     </section>
@@ -912,12 +890,12 @@
   <!-- jQuery core  -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <!-- jQuery easing library -->
-  <script type="text/javascript" src="jquery-easing.js"></script>
+  <script type="text/javascript" src="scripts/jquery-easing.js"></script>
   <!-- Ajax Core -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <!-- Bootstrap -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <!-- Internal JS -->
-  <script type="text/javascript" src="scripts.js"></script>
+  <script type="text/javascript" src="scripts/scripts.js"></script>
   </body>
 </html>
