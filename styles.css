@@ -1,0 +1,81 @@
+* {
+  margin,
+  border,
+  padding: 0;
+  overflow-x: hidden;
+}
+ul li a {
+  color: white;
+}
+.nav-link {
+}
+#nav-div {
+  width: 200px;
+}
+#big-div {
+  margin: 0;
+  margin-left: 10vw;
+  position: relative;
+}
+#banner-row {
+  width: 100vw;
+  left: 0;
+  background-color: black;
+}
+#my-nav {
+  z-index: 100;
+  width: 10vw;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  float: left;
+  position: fixed;
+  background-color: grey;
+
+}
+.trek-poster {
+  height: 500px;
+  width: auto;
+}
+#banner-div {
+
+}
+#banner {
+  width: 100%;
+  background-color: black;
+}
+#title-text {
+  margin-top: 30px;
+  padding: 25px;
+}
+#trib-txt {
+  margin: 0;
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
